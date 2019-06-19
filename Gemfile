@@ -5,6 +5,7 @@ ruby '2.5.3'
 
 # Bootstrap
 gem 'bootstrap', '~> 4.3.1'
+gem 'simple_form'
 
 gem 'jquery-rails'
 
