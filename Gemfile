@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 
 # Bootstrap
-gem 'bootstrap' '~> 4.3.1'
+gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
@@ -69,8 +69,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'popper_js', '~> 1.14.3'
+gem 'bootstrap', '~> 4.3.1'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
